@@ -1,4 +1,8 @@
 /* debug rules */
+.container{
+    margin-top: 50px;
+}
+
 [class*="col"] {
     background-color: rgb(171, 39, 191);
     border: solid 1px rgb(255, 255, 255);
