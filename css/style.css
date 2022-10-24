@@ -1,0 +1,6 @@
+/* debug rules */
+[class*="col"] {
+    background-color: rgb(171, 39, 191);
+    border: solid 1px black;
+    min-height: 100px;
+}

@@ -25,6 +25,11 @@
     flex-wrap: wrap;
 }
 
+/* Colonne */
+[class*="col-"] {
+    flex: 0 0 auto;
+}
+
 .col-1{
     flex-basis: calc(100% / 12);
     max-width: calc(100% / 12);
