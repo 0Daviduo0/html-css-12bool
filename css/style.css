@@ -1,6 +1,15 @@
 /* debug rules */
 [class*="col"] {
     background-color: rgb(171, 39, 191);
-    border: solid 1px black;
+    border: solid 1px rgb(255, 255, 255);
     min-height: 100px;
+}
+
+.row-nested{
+    margin: 30px;
+}
+
+.col-nested{
+    background-color: rgb(227, 37, 192);
+    border: rgb(171, 39, 191) solid 1px;
 }
