@@ -1,0 +1,25 @@
+/* debug rules */
+
+.container{
+    margin-top: 50px;
+    max-width: 1200px;
+    margin-bottom: 50px;
+}
+
+[class*="col"] {
+    background-color: black;
+    min-height: 100px;
+}
+
+.row-nested{
+    margin: 30px;
+}
+
+.col-nested{
+    background-color: rgb(227, 37, 192);
+    border: rgb(171, 39, 191) solid 1px;
+}
+
+.grey{
+    background-color: grey;
+}
